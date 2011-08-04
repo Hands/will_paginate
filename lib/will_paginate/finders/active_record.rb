@@ -123,7 +123,7 @@ module WillPaginate::Finders
     end
     
     def wp_parse_count_options(options, klass) #:nodoc:
-      excludees = [:count, :order, :limit, :offset, :readonly]
+      excludees = [:count, :order, :limit, :offset, :readonly, :include]
       
       # Use :select from scope if it isn't already present.
       # FIXME: this triggers extra queries when going through associations
