@@ -2,7 +2,7 @@
 require File.expand_path('../lib/will_paginate/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name    = 'will_paginate'
+  s.name    = 'hands-will_paginate'
   s.version = WillPaginate::VERSION::STRING
   s.date    = '2010-02-05'
   
